@@ -1,20 +1,34 @@
-
-html {
-  font-size: 10px;
-  background: url('images/background.jpg') bottom center;
-  background-size: cover;
-}
-
-body,html {
+*{
   margin: 0;
   padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+body,html{
+  height: 100%;
   font-family: sans-serif;
 }
 
-.keys {
+.keys{
+  margin-top: 20%;
+  background: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
   display: flex;
-  flex: 1;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow:wrap ;
+}
+.keys { 
+
   align-items: center;
   justify-content: center;
 }
@@ -23,6 +37,7 @@ body,html {
   border: .4rem solid black;
   border-radius: .5rem;
   margin: 1rem;
+  box-sizing: border-box;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all 0.07s;
@@ -44,9 +59,10 @@ body,html {
   box-shadow: 0 0 1rem #ffc600;
 }
 
-kbd {
+h1 {
   display: block;
   font-size: 4rem;
+  color: blanchedalmond;
 }
 
 .sound {
