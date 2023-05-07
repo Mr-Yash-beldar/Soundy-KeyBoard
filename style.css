@@ -32,6 +32,12 @@ body,html {
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
 }
+.key:hover{
+  opacity: .7;
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ff4400;
+}
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
