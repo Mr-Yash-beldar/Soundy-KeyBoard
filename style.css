@@ -13,7 +13,7 @@ body,html{
 
 .keys{
   margin-top: 20%;
-  background: url('images/background.jpg');
+  /* background: url('images/background.jpg'); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
